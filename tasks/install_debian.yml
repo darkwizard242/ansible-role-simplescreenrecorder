@@ -1,0 +1,9 @@
+---
+# tasks file for simplescreenrecorder - Debian based systems
+
+- name: "Installing {{ simplescreenrecorder_app }} on Debian based systems."
+  apt:
+    name: "{{ simplescreenrecorder_app }}"
+    state: "{{ simplescreenrecorder_desired_state }}"
+    force_apt_get: yes
+    update_cache: yes
