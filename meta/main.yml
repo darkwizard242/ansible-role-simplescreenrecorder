@@ -1,0 +1,26 @@
+---
+galaxy_info:
+  role_name: simplescreenrecorder
+  author: Ali Muhammad
+  description: SimpleScreenRecorder ansible role for recording purposes.
+  company: none
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+
+  galaxy_tags:
+    - simplescreenrecorder
+    - system
+    - os
+    - screen
+    - recording
+
+dependencies: []

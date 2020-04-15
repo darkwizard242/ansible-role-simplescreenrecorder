@@ -1,0 +1,5 @@
+---
+# defaults file for simplescreenrecorder
+
+simplescreenrecorder_app: simplescreenrecorder
+simplescreenrecorder_desired_state: present

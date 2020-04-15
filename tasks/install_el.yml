@@ -1,0 +1,8 @@
+---
+# tasks file for simplescreenrecorder - EL based systems
+
+- name: "Installing {{ simplescreenrecorder_app }} on EL based systems."
+  yum:
+    name: "{{ simplescreenrecorder_app }}"
+    state: "{{ simplescreenrecorder_desired_state }}"
+    update_cache: yes
