@@ -10,17 +10,11 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-        - xenial
         - bionic
     - name: Debian
       versions:
-        - jessie
         - stretch
         - buster
-    - name: EL
-      versions:
-        - 7
-        - 8
 
   galaxy_tags:
     - simplescreenrecorder
