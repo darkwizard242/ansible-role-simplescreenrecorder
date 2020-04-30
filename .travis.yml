@@ -13,6 +13,7 @@ env:
   global:
     - ROLE_NAME: simplescreenrecorder
   jobs:
+    - DISTRO: ubuntu-20.04
     - DISTRO: ubuntu-18.04
     - DISTRO: debian-buster
     - DISTRO: debian-stretch
