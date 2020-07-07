@@ -1,7 +1,7 @@
 ---
-# tasks file for simplescreenrecorder - EL based systems
+# tasks file for simplescreenrecorder - EL Family
 
-- name: "Installing {{ simplescreenrecorder_app }} on EL based systems."
+- name: EL Family | Installing {{ simplescreenrecorder_app }}
   yum:
     name: "{{ simplescreenrecorder_app }}"
     state: "{{ simplescreenrecorder_desired_state }}"

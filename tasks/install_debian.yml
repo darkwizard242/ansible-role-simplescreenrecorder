@@ -1,7 +1,7 @@
 ---
-# tasks file for simplescreenrecorder - Debian based systems
+# tasks file for simplescreenrecorder - Debian/Ubuntu Family
 
-- name: "Installing {{ simplescreenrecorder_app }} on Debian based systems."
+- name: Debian/Ubuntu Family | Installing {{ simplescreenrecorder_app }}
   apt:
     name: "{{ simplescreenrecorder_app }}"
     state: "{{ simplescreenrecorder_desired_state }}"
