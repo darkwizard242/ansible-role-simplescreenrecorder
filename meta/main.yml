@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: simplescreenrecorder
-  author: Ali Muhammad
+  author: darkwizard242
   description: SimpleScreenRecorder ansible role for recording purposes.
   company: none
   license: MIT
