@@ -21,10 +21,10 @@ simplescreenrecorder_desired_state: present
 
 ### Variables table:
 
-Variable                           | Value (default)      | Description
----------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------
-simplescreenrecorder_app           | simplescreenrecorder | Defines the app to install i.e. **simplescreenrecorder**
-simplescreenrecorder_desired_state | present              | Defined to dynamically chose whether to install (i.e. either `present` or `latest`) or uninstall (i.e. `absent`) the package. Defaults to `present`.
+Variable                           | Description
+---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------
+simplescreenrecorder_app           | Defines the app to install i.e. **simplescreenrecorder**
+simplescreenrecorder_desired_state | Defined to dynamically chose whether to install (i.e. either `present` or `latest`) or uninstall (i.e. `absent`) the package. Defaults to `present`.
 
 ## Dependencies
 
@@ -66,4 +66,4 @@ For customizing behavior of role (i.e. un-installation of **simplescreenrecorder
 
 ## Author Information
 
-This role was created by [Ali Muhammad](https://www.linkedin.com/in/ali-muhammad-759791130/).
+This role was created by [Ali Muhammad](https://www.alimuhammad.dev/).
