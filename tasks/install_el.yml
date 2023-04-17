@@ -2,7 +2,7 @@
 # tasks file for simplescreenrecorder - EL Family
 
 - name: EL Family | Installing {{ simplescreenrecorder_app }}
-  yum:
+  ansible.builtin.yum:
     name: "{{ simplescreenrecorder_app }}"
     state: "{{ simplescreenrecorder_desired_state }}"
     update_cache: yes

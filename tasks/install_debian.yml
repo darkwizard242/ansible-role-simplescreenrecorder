@@ -2,7 +2,7 @@
 # tasks file for simplescreenrecorder - Debian/Ubuntu Family
 
 - name: Debian/Ubuntu Family | Installing {{ simplescreenrecorder_app }}
-  apt:
+  ansible.builtin.apt:
     name: "{{ simplescreenrecorder_app }}"
     state: "{{ simplescreenrecorder_desired_state }}"
     force_apt_get: yes
